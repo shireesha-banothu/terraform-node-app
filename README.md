@@ -19,3 +19,11 @@ Provision a local Docker container using Terraform that runs a simple Node.js ap
 1. **Initialize Terraform**
    ```bash
    terraform init
+   terraform plan
+   terraform apply -auto-approve
+   docker ps
+   curl http://localhost:3000
+   terraform destroy -auto-approve
+
+
+
